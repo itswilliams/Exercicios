@@ -1,0 +1,36 @@
+const vogais = ['a', 'e', 'i', 'o', 'u'];
+
+function contarNumeroVogais(str) {
+    let contar = 0;
+    console.log(str);
+    for (let letra of str.toLowerCase()) {
+      if (vogais.includes(letra)) {
+        contar++;
+      }
+    }
+    return contar;
+  }
+  let quantidade = contarNumeroVogais('developer');
+  console.log(quantidade);
+
+  function inverter(str)
+{
+  let reverseStr = "";
+
+  for (let i = str.length - 1; i>=0; i--)
+  {
+    reverseStr += str[i];
+  }
+
+  console.log(reverseStr); 
+}
+inverter("developer")
+
+ if (typeof str === "string") {
+     console.log ("string")
+ } else {
+         console.log ("Oh, carai")
+ }
+ 
+ git add
+
