@@ -31,6 +31,4 @@ inverter("developer")
  } else {
          console.log ("Oh, carai")
  }
- 
- git add
 
